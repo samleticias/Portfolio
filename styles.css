@@ -232,3 +232,49 @@ section.topo-do-site .flex {
     height: 100%;
     border-radius: 5px;
 }
+
+.tabela-habilidades td .progresso {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.tabela-habilidades td span {
+    margin-left: 5px;
+}
+
+.habilidades .titulo {
+    margin-bottom: 20px; /* Adicionando espaço extra entre o título e a tabela */
+}
+
+/* Estilo Especialidades */
+section.especialidades {
+    padding: 40px 4%;
+}
+
+section.especialidades .flex {
+    gap: 65px;
+}
+
+.especialidades .especialidades-box {
+    color: black;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.especialidades .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #c9184a;
+}
+
+.especialidades .especialidades-box i {
+    font-size: 50px;
+    color: #c9184a;
+}
+
+.especialidades .especialidades-box h3 {
+    font-size: 28px;
+    margin: 15px 0;
+}
