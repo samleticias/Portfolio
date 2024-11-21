@@ -28,7 +28,7 @@ body {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #e2a8bf;
+    background-color: #ff81b1;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -191,4 +191,44 @@ section.topo-do-site .flex {
     100% {
         top: 30px;
     }
+}
+
+/* Estilo Tabela Habilidades */
+.tabela-habilidades table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px; /* Adicionando bordas redondas à tabela */
+    overflow: hidden; 
+}
+
+.tabela-habilidades th,
+.tabela-habilidades td {
+    border: 1px solid #fdccd9;
+    padding: 10px;
+    text-align: left;
+}
+
+.tabela-habilidades thead th {
+    background-color: #ff9bb4; /* Cor de fundo para o cabeçalho */
+    color: black; /* Cor do texto para o cabeçalho */
+}
+
+/* Estilos para o conteúdo da tabela */
+.tabela-habilidades tbody td {
+    background-color: #ffd9e3; /* Cor de fundo para o conteúdo */
+    color: black; /* Cor do texto para o conteúdo */
+}
+
+.barra-progresso {
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    height: 20px;
+    position: relative;
+}
+
+.progresso {
+    background-color: #c9184a;
+    height: 100%;
+    border-radius: 5px;
 }
