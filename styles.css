@@ -84,7 +84,7 @@ header nav.menu-desktop ul li {
 }
 
 .logo img {
-    max-width: 300px;
+    max-width: 210px;
     height: auto;
 }
 
@@ -378,4 +378,112 @@ form .btn-enviar input {
     font-size: 700;
     cursor: pointer;
     transition: 1.2s;
+}
+
+/* Estilo Rodapé */
+
+footer {
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #d195a3;
+} 
+
+footer .flex {
+    justify-content: space-between;
+} 
+
+footer .line-footer {
+    padding: 20px 0;
+}
+
+footer .line-footer img {
+    max-width: 100px; 
+    height: auto;
+}
+
+.borda {
+    border-top: 2px solid #742977;
+}
+
+footer .line-footer p i {
+    color: #742977;
+    font-size: 22px;
+}
+
+footer .line-footer p a {
+    color: black;
+}
+
+@media screen and (max-width: 1020px){
+    /* Classes Gerais */
+    .flex {
+        flex-direction: column-reverse;
+    }
+
+    h2.titulo {
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+    /* Cabeçalho */
+    .menu-desktop, .btn-contato {
+        display: none;
+    }
+
+    /* Tipo do site */
+    section.topo-d-site .flex {
+        gap: 40px;    
+    }
+
+    section.topo-do-site {
+        padding: 20px 8%;
+    }
+
+    .topo-do-site h1 {
+        font-size: 32px;
+    }
+
+    .topo-do-site .img-topo-site img {
+        width: 100%;
+    }
+
+    /*Minhas habilidades */
+    .tabela-habilidades {
+        padding: 20px 8%;
+        font-size: 12px;
+    }
+
+    /* Minhas especialidades */
+    section.especialidades {
+        padding: 40px 8%;
+    }
+
+    /* Sobre mim */
+    section.sobre {
+        padding: 80px 8%;
+    }
+
+    .sobre .txt-sobre h2 {
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .btn-social {
+        text-align: center;
+    }
+
+    .img-sobre img {
+        width: 100%;
+    }
+
+    /* Rodapé */
+    footer .flex {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    footer .line-footer {
+        text-align: center;
+    }
+
 }
