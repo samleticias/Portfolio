@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #ffe5ec;
+    background-color: #eddbed;
     height: 100vh;
 }
 
@@ -28,7 +28,7 @@ body {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #ff81b1;
+    background-color: #ca79ca;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -43,11 +43,11 @@ h2.titulo {
 }
 
 h2.titulo span {
-    color: #c9184a;
+    color: #742977;
 }
 
 button:hover, form .btn-enviar input:hover {
-    box-shadow: 0px 0px 8px #c9184a;
+    box-shadow: 0px 0px 8px #742977;
     transform: scale(1.05);
 }
 
@@ -69,7 +69,7 @@ header a {
 }
 
 header nav.menu-desktop a:hover {
-    color: #c9184a;
+    color: #742977;
     transform: scale(1.05);
     transition: .2s;
 }
@@ -84,13 +84,13 @@ header nav.menu-desktop ul li {
 }
 
 .logo img {
-    max-width: 270px;
+    max-width: 300px;
     height: auto;
 }
 
 /* Estilo do menu mobile */
 .btn-abrir-menu i {
-    color: #c9184a;
+    color: #742977;
     font-size: 40px;
 }
 
@@ -119,7 +119,7 @@ header nav.menu-desktop ul li {
 }
 
 .menu-mobile .btn-fechar i {
-    color: #c9184a;
+    color: #742977;
     font-size: 30px;
 }
 
@@ -136,12 +136,12 @@ header nav.menu-desktop ul li {
 }
 
 .menu-mobile nav ul li a:hover {
-    background-color: #fb6f92;
+    background-color: #a349a4;
     color: white;
 }
 
 .overlay-menu {
-    background-color: #ffb3c6a6;
+    background-color: #c892c8;
     width: 100%;
     height: 100%;
     position: fixed;
@@ -169,7 +169,7 @@ section.topo-do-site .flex {
 }
 
 .topo-do-site.topo-do-site h1 span {
-    color: #c9184a;
+    color: #742977;
     font: 84px;
 }
 
@@ -209,13 +209,13 @@ section.topo-do-site .flex {
 }
 
 .tabela-habilidades thead th {
-    background-color: #ff9bb4; /* Cor de fundo para o cabeçalho */
+    background-color: #c892c8; /* Cor de fundo para o cabeçalho */
     color: black; /* Cor do texto para o cabeçalho */
 }
 
 /* Estilos para o conteúdo da tabela */
 .tabela-habilidades tbody td {
-    background-color: #ffd9e3; /* Cor de fundo para o conteúdo */
+    background-color: #dab6db; /* Cor de fundo para o conteúdo */
     color: black; /* Cor do texto para o conteúdo */
 }
 
@@ -228,7 +228,7 @@ section.topo-do-site .flex {
 }
 
 .progresso {
-    background-color: #c9184a;
+    background-color: #742977;
     height: 100%;
     border-radius: 5px;
 }
@@ -266,12 +266,12 @@ section.especialidades .flex {
 
 .especialidades .especialidades-box:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 8px #c9184a;
+    box-shadow: 0 0 8px #742977;
 }
 
 .especialidades .especialidades-box i {
     font-size: 50px;
-    color: #c9184a;
+    color: #742977;
 }
 
 .especialidades .especialidades-box h3 {
