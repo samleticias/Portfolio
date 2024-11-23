@@ -83,8 +83,13 @@ header nav.menu-desktop ul li {
     padding: 0 40px;
 }
 
+/* Estilo para rolagem suave */
+html {
+    scroll-behavior: smooth;
+}
+
 .logo img {
-    max-width: 210px;
+    max-width: 100px;
     height: auto;
 }
 
@@ -412,11 +417,6 @@ footer .line-footer p i {
 
 footer .line-footer p a {
     color: black;
-}
-
-footer .logo-footer img {
-    height: auto;
-    max-width: 100px;
 }
 
 @media screen and (max-width: 1020px){
