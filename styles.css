@@ -414,6 +414,11 @@ footer .line-footer p a {
     color: black;
 }
 
+footer .logo-footer img {
+    height: auto;
+    max-width: 100px;
+}
+
 @media screen and (max-width: 1020px){
     /* Classes Gerais */
     .flex {
