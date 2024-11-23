@@ -324,6 +324,7 @@ section.sobre .flex {
 .img-sobre img {
     max-width: 300px; 
     height: auto;
+    border-radius: 20px;
 }
 
 /* Estilo Formulário */
