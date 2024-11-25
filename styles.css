@@ -468,6 +468,23 @@ footer .line-footer p a {
     color: black;
 }
 
+/* Seta para retornar ao início */
+.seta-para-topo {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 2rem;
+    color: #933e95; 
+    cursor: pointer;
+    z-index: 999;
+    transition: opacity 0.3s ease;
+}
+
+.seta-para-topo.show {
+    display: block;
+}
+
 @media screen and (max-width: 1020px){
     /* Classes Gerais */
     .flex {
