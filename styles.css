@@ -1,4 +1,5 @@
 /*Estilo geral*/
+
 *{
     margin: 0;
     padding: 0;
@@ -52,6 +53,7 @@ button:hover, form .btn-enviar input:hover {
 }
 
 /*Estilo do cabeçalho*/
+
 header {
     padding: 40px 4%;
 }
@@ -94,6 +96,7 @@ html {
 }
 
 /* Estilo do menu mobile */
+
 .btn-abrir-menu i {
     color: #742977;
     font-size: 40px;
@@ -157,6 +160,7 @@ html {
 }
 
 /* Estilo do topo do site */
+
 section.topo-do-site {
     padding: 40px 4%;
 }
@@ -199,6 +203,7 @@ section.topo-do-site .flex {
 }
 
 /* Estilo Tabela Habilidades */
+
 .tabela-habilidades table {
     width: 100%;
     border-collapse: collapse;
@@ -219,6 +224,7 @@ section.topo-do-site .flex {
 }
 
 /* Estilos para o conteúdo da tabela */
+
 .tabela-habilidades tbody td {
     background-color: #dab6db; /* Cor de fundo para o conteúdo */
     color: black; /* Cor do texto para o conteúdo */
@@ -253,6 +259,7 @@ section.topo-do-site .flex {
 }
 
 /* Estilo Especialidades */
+
 section.especialidades {
     padding: 40px 4%;
 }
@@ -285,6 +292,7 @@ section.especialidades .flex {
 }
 
 /* Estilo Sobre */
+
 section.sobre {
     padding: 80px 4%;
 }
