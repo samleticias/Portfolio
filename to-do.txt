@@ -1,3 +1,0 @@
-- Adicionar fotos
-- Adicionar currículo pdf
-- Criar seção de projetos do portfólio
