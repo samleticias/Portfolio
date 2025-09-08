@@ -571,6 +571,10 @@ footer .line-footer p a {
         gap: 60px;
     }
 
+    footer {
+        box-shadow: none; 
+    }
+
     /* Rodapé */
     footer .flex {
         flex-direction: column;
